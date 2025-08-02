@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Secuvantix Technology Limited Uganda</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav
+    class="fixed top-4 left-0 right-0 z-50 mx-6 sm:mx-10 md:mx-12 lg:mx-auto max-w-7xl rounded-lg bg-gradient-to-b from-white/20 to-gray-800/30 backdrop-blur-lg border border-white/10 shadow-lg text-white px-4 py-2">
+    <div class="flex items-center justify-between">
+
+      <!-- Logo -->
+      <div class="text-2xl font-semibold font-poppins">
+        <a href="#">SECUVANTIX</a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-8 font-poppins text-lg">
+        <a href="#home" class="hover:text-cyan-300 transition duration-300">Home</a>
+        <a href="#about" class="hover:text-cyan-300 transition duration-300">About</a>
+        <a href="/blogs.html" class="hover:text-cyan-300 transition duration-300">Blogs</a>
+        <a href="#services" class="hover:text-cyan-300 transition duration-300">Services</a>
+      </div>
+
+      <!-- CTA Button -->
+      <div class="hidden md:block">
+        <a href="/contact.html"
+          class="block text-center text-white font-semibold py-1 px-4 rounded-lg border border-white/10 shadow-lg backdrop-blur-lg bg-gradient-to-b from-white/10 to-gray-700/10 hover:from-white/20 hover:to-gray-800/20 transition duration-300">
+          Contact Us
+        </a>
+
+
+      </div>
+
+      <!-- Mobile Toggle -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden mt-2 px-2 space-y-2">
+      <a href="#home" class="block font-bold hover:text-cyan-300">Home</a>
+      <a href="#about" class="block font-bold hover:text-cyan-300">About</a>
+      <a href="/blogs.html" class="block font-bold hover:text-cyan-300">Blog</a>
+      <a href="#services" class="block font-bold hover:text-cyan-300">Services</a>
+      <a href="#"
+        class="block text-center text-white font-semibold py-2 px-4 rounded-lg border border-white/10 shadow-lg backdrop-blur-lg bg-gradient-to-b from-white/10 to-gray-700/10 hover:from-white/20 hover:to-gray-800/20 transition duration-300">
+        Contact Us
+      </a>
+
+    </div>
+  </nav>
+
+
+  <!-- Hero Content-->
+  <section class="relative min-h-[100vh] bg-black bg-cover bg-center bg-no-repeat" id="home">
+
+    <!-- Hero Content (with top padding to avoid hiding under navbar) -->
+    <div class="min-h-screen flex items-center justify-center px-4">
+      <div class="max-w-6xl mx-auto px-3 sm:px-6 md:px-6 lg:px-0 w-full flex flex-col md:flex-row items-center gap-12">
+        <!-- Left Section: Text -->
+        <div class="flex-1 text-white pt-32 sm:pt-16 md:pt-16 px-4 sm:px-6 md:px-8 text-center md:text-left">
+          <h3 class="text-2xl  sm:text-3xl md:text-5xl lg:text-5xl font-semibold mb-6 font-poppins">
+            Smart. Secure. Seamlessly.
+            Intergrated
+          </h3>
+
+          <p class="text-sm sm:text-base md:text-lg lg:text-xl font-poppins max-w-4xl mb-6">
+            Your technology partner in a fast moving digital world. We make IT simple, secure and scalable for
+            businesses of all sizes. Let's build something smarter together
+          </p>
+
+          <div class="sm:flex sm:justify-start gap-8">
+            <div class="mb-4 w-full sm:w-80">
+              <a href="#" class="inline-block w-full text-center text-white font-semibold py-2 px-4 rounded-lg border border-white/10 shadow-lg
+                  backdrop-blur-lg bg-gradient-to-b from-white/10 to-gray-700/10
+                  hover:from-white/20 hover:to-gray-800/20 transition-all duration-300">
+                Book Consultation
+              </a>
+
+            </div>
+            <div class="w-full sm:w-40">
+              <a href="/contact.html"
+                class="inline-block w-full text-center text-white font-semibold py-2 px-4 rounded-lg border border-white/10 shadow-lg backdrop-blur-lg bg-gradient-to-b from-white/10 to-gray-700/10 hover:from-white/20 hover:to-gray-800/20 transition-all duration-300">
+                Get in touch
+              </a>
+
+
+
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-5 mt-4 justify-center md:justify-start">
+            <div>
+              <p><i class="fa-solid fa-lock"></i> Cybersecurity</p>
+            </div>
+            <div>
+              <p><i class="fa-solid fa-cloud"></i> Articial Intelligence</p>
+            </div>
+            <div>
+              <p><i class="fa-solid fa-microchip"></i> Intergration</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Section: Image -->
+        <div class="hidden md:flex flex-1 justify-center md:justify-end">
+          <img src="/img/WhatsApp_Image_2025-07-29_at_2.37.54_PM-removebg-preview.png" alt="Technology illustration"
+            class="max-w-full h-auto rounded" />
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+<section class="relative min-h-screen bg-black flex items-center justify-center overflow-hidden py-16" id="about">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-0">
+
+    <!-- Centered Section Title -->
+    <h2 class="text-white text-4xl font-semibold text-center mb-24">Inside Secuvantix</h2>
+
+    <!-- Grid Layout -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+      <!-- Left: Image -->
+      <div>
+        <img src="img/pexels-thirdman-7236621.jpg" alt="About Secuvantix" class="w-full rounded-2xl shadow-lg" />
+      </div>
+
+      <!-- Right: Text Content -->
+      <div class="text-white text-center md:text-left px-2 sm:px-4 md:px-0">
+        <!-- Subheading -->
+        <h2 class="text-2xl font-semibold mb-4">Who Are We</h2>
+
+        <!-- Paragraph -->
+        <p class="text-gray-300 leading-relaxed mb-6">
+          Secuvantix is a forward-thinking tech company focused on cybersecurity, AI integration, and digital
+          transformation. Our goal is to secure and empower organizations through innovative and reliable solutions.
+        </p>
+
+        <!-- Bottom Button -->
+        <a href="/about.html"
+          class="inline-block text-white w-fit text-sm font-semibold px-6 py-2 rounded-lg border border-white/10 shadow-lg backdrop-blur-lg bg-gradient-to-b from-white/10 to-gray-700/10 hover:from-white/20 hover:to-gray-800/20 text-cyan-300 hover:text-white transition-all duration-300">
+          Learn more
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="relative min-h-screen bg-black flex items-center justify-center overflow-hidden py-16" id="services">
+    <div class="text-white text-center w-full max-w-6xl mx-auto px-3 sm:px-6 md:px-6 lg:px-0">
+      <a href="#services" class="inline-block w-fit text-center text-white font-semibold py-1.5 px-6 mb-8 rounded-lg border border-white/10 shadow-lg
+          backdrop-blur-lg bg-gradient-to-b from-white/10 to-gray-700/10
+          hover:from-white/20 hover:to-gray-800/20 transition-all duration-300">
+        Why Choose Us
+      </a>
+
+
+      <h3
+        class="text-2xl sm:text-3xl text-cyan-400 md:text-4xl lg:text-3xl font-semibold mb-6 font-poppins text-center max-w-xl mx-auto px-4">
+        Our Digital Journey
+      </h3>
+
+      <p class="text-center text-lg px-6 max-w-xl lg:max-w-lg mx-auto leading-relaxed">
+        We are experts in what we do, every service is delivered by a specialist who
+        knows their craft inside and out.
+      </p>
+
+      <div class="flex flex-col md:flex-row justify-between mt-10 p-6 gap-6 max-w-6xl mx-auto">
+        <!-- Cybersecurity -->
+        <div
+          class="text-left flex-1 bg-gradient-to-b from-white/10 to-gray-700/10 backdrop-blur-lg border border-white/10 shadow-lg rounded-3xl p-8 transition-all duration-300 hover:from-white/20 hover:to-gray-800/20">
+          <div class="flex justify-start mb-2">
+            <div class="py-1 px-3  bg-cyan-600 rounded">
+              <i class="fa-solid fa-lock" style="color: rgb(13, 14, 14);"></i>
+            </div>
+          </div>
+          <h2 class="font-semibold text-lg text-cyan-500">Cybersecurity</h2>
+          <p class="text-gray-200">We secure your systems with modern defenses that prevent attacks, protect data, and
+            ensure your business stays resilient in an evolving threat landscape.</p>
+          <a href="/services.html"
+            class="underline text-cyan-500 font-semibold hover:text-cyan-200 transition-colors duration-200">Learn
+            More</a>
+        </div>
+
+        <!-- Cloud Services -->
+        <div
+          class="text-left flex-1 bg-gradient-to-b from-white/10 to-gray-700/10 backdrop-blur-lg border border-white/10 shadow-lg rounded-3xl p-8 transition-all duration-300 hover:from-white/20 hover:to-gray-800/20">
+          <div class="flex justify-start mb-2">
+            <div class="py-1 px-3  bg-cyan-600 rounded">
+              <i class="fa-solid fa-cloud" style="color: rgb(0, 0, 0);"></i>
+            </div>
+          </div>
+          <h2 class="font-semibold text-lg text-cyan-500">Cloud Services</h2>
+          <p class="text-gray-200">We deliver scalable cloud solutions that support growth, improve flexibility, and
+            ensure secure access to your data and applications—anytime, anywhere.</p>
+          <a href="/services.html"
+            class="underline font-semibold text-cyan-500 hover:text-cyan-200 transition-colors duration-200">Learn
+            More</a>
+        </div>
+
+        <!-- Digital Advisory -->
+        <div
+          class="text-left flex-1 bg-gradient-to-b from-white/10 to-gray-700/10 backdrop-blur-lg border border-white/10 shadow-lg rounded-3xl p-8 transition-all duration-300 hover:from-white/20 hover:to-gray-800/20">
+          <div class="flex justify-start mb-2">
+            <div class="py-1 px-3  bg-cyan-600 rounded">
+              <i class="fa-solid fa-microchip" style="color: rgb(0, 0, 0);"></i>
+            </div>
+          </div>
+          <h2 class="font-semibold text-lg text-cyan-500">Digital Advisory</h2>
+          <p class="text-gray-200">We guide organizations through digital transformation by aligning technology,
+            strategy, and talent to maximize value and accelerate sustainable innovation.</p>
+          <a href="/services.html"
+            class="underline text-cyan-500 hover:text-cyan-200 font-semibold transition-colors duration-200">Learn
+            More</a>
+        </div>
+      </div>
+
+       <a href="/services.html" class="inline-block mt-6 w-fit text-center text-white font-semibold py-1.5 px-6 mb-8 rounded-lg border border-white/10 shadow-lg
+          backdrop-blur-lg bg-gradient-to-b from-white/10 to-gray-700/10
+          hover:from-white/20 hover:to-gray-800/20 transition-all duration-300">
+        Explore all services
+      </a>
+
+    </div>
+  </section>
+
+
+  <section class="bg-black py-16 px-6 text-white">
+    <div class="max-w-6xl mx-auto text-center mb-12">
+      <h2 class="text-2xl md:text-3xl font-semibold text-cyan-400">What Our Clients Say</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+      <!-- Testimonial Card 1 -->
+      <div
+        class="bg-gradient-to-b from-white/10 to-gray-800/10 backdrop-blur-md border border-white/10 shadow-lg rounded-2xl p-6 transition hover:from-white/20 hover:to-gray-800/20">
+        <div class="flex items-center justify-between mb-4">
+          <img src="img/prof.1.jpg" alt="Client Photo" class="w-10 h-10 rounded-full object-cover">
+          <div class="text-yellow-400 flex space-x-1 text-sm">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <p class="text-cyan-400 font-semibold mb-1">Jeremy Kodiyar</p>
+        <p class="text-gray-200 text-sm">“Working with this team has transformed our digital approach. Their guidance
+          was spot-on and made our workflow more efficient.”</p>
+      </div>
+
+      <!-- Testimonial Card 2 -->
+      <div
+        class="bg-gradient-to-b from-white/10 to-gray-800/10 backdrop-blur-md border border-white/10 shadow-lg rounded-2xl p-6 transition hover:from-white/20 hover:to-gray-800/20">
+        <div class="flex items-center justify-between mb-4">
+          <img src="img/prof.2.jpg" alt="Client Photo" class="w-10 h-10 rounded-full object-cover">
+          <div class="text-yellow-400 flex space-x-1 text-sm">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <p class="text-cyan-400 font-semibold mb-1">Anne Topachu</p>
+        <p class="text-gray-200 text-sm">“The cloud migration was seamless, and they were incredibly responsive
+          throughout. Highly recommended!”</p>
+      </div>
+
+      <!-- Testimonial Card 3 -->
+      <div
+        class="bg-gradient-to-b from-white/10 to-gray-800/10 backdrop-blur-md border border-white/10 shadow-lg rounded-2xl p-6 transition hover:from-white/20 hover:to-gray-800/20">
+        <div class="flex items-center justify-between mb-4">
+          <img src="img/prof.3.avif" alt="Client Photo" class="w-10 h-10 rounded-full object-cover">
+          <div class="text-yellow-400 flex space-x-1 text-sm">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <p class="text-cyan-400 font-semibold mb-1">William Ssendegeya</p>
+        <p class="text-gray-200 text-sm">“Exceptional service and forward-thinking advice. They truly understand digital
+          transformation.”</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer class="relative min-h-screen bg-black flex items-center justify-center overflow-hidden py-16 text-white">
+    <div class="w-full max-w-6xl px-6 bg-black rounded-xl">
+
+      <!-- Top Image with Overlay Text and Side Gradients -->
+      <div class="relative overflow-hidden rounded-t-xl">
+        <img src="img/bg.1.jpg" alt="Footer Banner" class="w-full object-cover">
+
+        <!-- Center overlay text -->
+        <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+          <h2 class="text-3xl md:text-5xl font-bold text-center">Let's Build Something Future Ready</h2>
+        </div>
+
+        <!-- Left and Right Gradient Fades -->
+        <div class="absolute inset-0 pointer-events-none">
+          <div class="absolute top-0 bottom-0 left-0 w-16 bg-gradient-to-r from-black to-transparent"></div>
+          <div class="absolute top-0 bottom-0 right-0 w-16 bg-gradient-to-l from-black to-transparent"></div>
+        </div>
+      </div>
+
+      <!-- Email Subscribe Section -->
+      <div class="bg-black px-6 py-10 rounded-b-xl">
+        <div class="mb-8">
+          <h2 class="text-lg font-semibold mb-8 text-center sm:text-left">
+            Join our news letter for to recieve the latest tech insights, case studies and services updates from
+            Secuvantix
+          </h2>
+
+          <label for="email" class="block mb-2 text-lg font-semibold">Email</label>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <input type="email" id="email" placeholder="Enter your email" class="w-full px-4 py-3 rounded-lg text-white bg-transparent border border-gray-700
+            focus:outline-none focus:ring-0" />
+            <a href="#" class="inline-block w-full sm:w-fit text-center text-white font-semibold py-3 px-5 rounded-2xl border border-white/10 shadow-lg
+               backdrop-blur-lg bg-gradient-to-b from-white/10 to-gray-700/10
+               hover:from-white/20 hover:to-gray-800/20 transition-all duration-300">
+              Subscribe
+            </a>
+          </div>
+        </div>
+
+        <!-- Horizontal Line -->
+        <hr class="border-gray-700 my-8" />
+
+        <!-- Services Section -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Services</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Artificial Intelligence</li>
+              <li>System Intergration</li>
+              <li>Digital Advisory</li>
+              <li>Cybersecurity</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Career</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Open positions</li>
+              <li>Life at Secuvantix</li>
+              <li>Internships</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Support</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li>Help Center</li>
+              <li>FAQ</li>
+              <li>Contact Us</li>
+              <li>Commmunity</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Contact</h3>
+            <ul class="space-y-2 text-gray-300">
+              <li><i class="fa-solid fa-envelope"></i> info@secuvantix.com</li>
+              <li><i class="fa-solid fa-phone"></i> +256-758-785-524</li>
+              <li><i class="fa-solid fa-location-dot"></i> Kampala, Uganda</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Second Horizontal Line -->
+        <hr class="border-gray-700 my-8" />
+
+        <!-- Bottom Row -->
+        <div class="flex flex-col md:flex-row items-center justify-between">
+          <div class="text-xl font-bold">SECUVANTIX &copy;</div>
+          <div class="flex space-x-4 mt-4 md:mt-0">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook text-xl hover:text-cyan-400"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter text-xl hover:text-cyan-400"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin text-xl hover:text-cyan-400"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram text-xl hover:text-cyan-400"></i></a>
+          </div>
+        </div>
+      </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const toggleBtn = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    toggleBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+
+</html>
